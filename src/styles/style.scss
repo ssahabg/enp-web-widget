@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixins';
+
+.bg-partner-widget-container {
+    @include normalize();
+
+    margin: $margin5;
+    
+    @include boxShadow($primaryShadowColor);
+
+    .bg-partner-widget-container-inner {
+        padding: $padding10;
+    }
+}
